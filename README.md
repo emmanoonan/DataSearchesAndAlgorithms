@@ -36,4 +36,33 @@ This project is a simple and interactive search engine for Data Structures & Alg
 Clone the repository:
 
 ```bash
-git clone
+git clone https://github.com/emmanoonan/DataSearchesAndAlgorithms.git
+```
+
+## Prerequisites
+Ensure that you have **Java** (JDK 11 or later) and **JavaFX** set up on your machine. If you're using **VS Code**, you may need to configure **VM options** to include JavaFx libraries.
+
+## Steps to run the application:
+1. **Navigate to the project directory:**
+   ```bash
+   cd uisearch
+   ```
+2. **Compile and run the application:**
+   - **If using Maven** (with pom.xml):
+     Run the following Maven commands:
+     ```bash
+     mvn clean install
+     mvn javafx:run
+     ```
+   - **If not using Maven**:
+     Use your IDE (like VS Code of IntelliJ) or terminal to compile and run SearchApp.java directly
+     Make sure all Java files (SearchApp.java, PrimaryController.java, Search.java, Urls.java, Result.java) are included during compilation
+     You may also need to configure JavaFX modules in your run settings or command line
+3. **Interact with the app**:
+   The application will open a JavaFX window where you can enter queries related to Data Structures & Algorithms and view the most relevant website links
+---
+## Project Structure
+- **SearchApp.java**: The main entry point of the program, where the JavaFX UI is initialized and search functionality is handled
+- **PrimaryController.java***: Manages interactions between the JavaFX UI and the backend
+- **URLS.java**: Defines the Url object, whcih stores URL links, descriptions, and relevance scores
+- **FXML files**: Defines the layout of the JavaFX user interface
