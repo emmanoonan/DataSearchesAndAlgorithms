@@ -1,2 +1,39 @@
-# DataSearchesAndAlgorithms
-A DS&amp;A search engine built with Java and JavaFX for our CSCI 230 final presentation (4/21/25). I focused on the JavaFX front-end and integrating it with the back-end. The app tokenizes user input, ranks results with quicksort, and displays clickable links in an interactive UI.
+# DS&A Search Engine
+This project is a simple and interactive search engine for Data Structures & Algorithms content, built using Java and JavaFX. It was created for our CSCI 230 final presentation (4/21/25) and is designed to help students quickly find useful and relevant resources.
+---
+## Features
+
+### Tokenization
+- Parses user queries into keywords
+- Compares tokens to stored website data for relevance scoring
+### ArrayList Storage
+- Uses an `ArrayList` to store custom URL objects
+- Each object contains a link, description, and chapter number
+### Quicksort Ranking
+- Scores each URL based on relevance
+- Uses Quicksort to display the most useful results first
+### JavaFX Front-End
+- Interactive GUI allows uers to enter search queries
+- Displays ranked, clickable URLS that open in a browser
+---
+## Challenges
+
+- **JavaFX Setup**
+  Setting up JavaFX libraries in VS Code required troubleshooting and proper environment configuration
+- **Front-End/Back-End Integration**
+  Connecting GUI elements with search logic was more complex than expected
+- **Clickable Links**
+  Making URLS open correctly within our GUI took some trial and error
+---
+## Lessons Learned
+- The importance of clean, modular code for combining front- and back-end components
+- JavaFX offers powerful tools, but requires precise configuration
+- Object-Oriented Programming helped structure the project logically using classes and custom objects
+- Quicksort and tokenization helped make our app functional and efficient
+---
+## How to Use
+
+Clone the repository:
+
+```bash
+git clone
